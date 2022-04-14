@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.list-container {
+width: 336px;
+height: 236px;
+border-radius: 10px;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+position: relative;
+display: flex;
+flex-direction: column;
+margin-left: 36%;
+margin-top: 5%;
+
+}
+
+.yellow {
+width: 336px;
+height: 28px;
+background: #FFDC40;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.yazi {
+width: 198px;
+height: 34px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 26px;
+line-height: 30px;
+text-align: center;
+text-transform: capitalize;
+color: #000000;
+margin-left: 69px;
+margin-top: 13px;
+
+}
+
+
+.a {
+width: 25px;
+height: 15px;
+margin-top: 16px;
+margin-left: 281px;
+position: relative;
+cursor: pointer;
+}
+
+.skl1{
+width: 25px;
+height: 15px;
+position: absolute;
+}
+.skl2 {
+    width: 25px;
+    height: 15px;
+    position: absolute;
+    display: none;
+}
+.skl3{
+  width: 25px;
+  height: 15px;
+  position: absolute;
+  display: none;
+  
+}
+
+.skl4{
+  width: 25px;
+  height: 15px;
+  position: absolute;
+  display: none ;
+  
+}
+
+.inpt1 {
+width: 286px;
+height: 40px;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 10px;
+margin-top: 11px;
+margin-left: 28px;
+box-sizing: border-box;
+cursor: pointer;
+text-align:center;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+}
+form .btn1 {
+position: absolute;
+  border: solid 1px #C4C4C4;
+  display: block;
+  width: 21px;
+  height: 21px;
+  line-height: 16px;
+  font-size: 20px;
+  border-radius: 50%;
+  top: 126px;
+  right: 50px;
+  margin: auto;
+  background: white;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+  transition: .1s;
+  color: #C4C4C4;
+  
+}
+
+.btn2 {
+width: 150px;
+height: 42px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+cursor: pointer;
+text-align:center;
+color: #FFFFFF;
+background: #833AE0;
+border-radius: 71px;
+border: none;
+position: absolute;
+}
+.btn3 {
+border: none;
+background: #9953F1;
+width: 42px;
+height: 42px;
+border-radius: 71px;
+margin-bottom: 20px;
+color: #FFFFFF;
+position: absolute;
+cursor: pointer;
+}
+.button-container {
+    position: relative;
+    margin-top: 18px ;
+    margin-left: 92px;
+}
+.tasklistbox {
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 10px;
+width: 286px;
+height: 200px;
+margin-top: 18px;
+margin-left: 27px;
+display: none;
+overflow: auto;
+}
+
+.deleteButton {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display:inline-block;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  color:#C4C4C4;
+  text-align: center;
+  border: solid 1px #C4C4C4;
+  position: absolute;
+  right: 0;
+  top: 0;
+  
+}
+.li{
+    width: 230px;
+    height: auto;
+    list-style-type: none;
+    margin-left: 27px;
+    margin-top: 15px;
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
