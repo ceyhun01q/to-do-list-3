@@ -53,6 +53,7 @@ cursor: pointer;
 width: 25px;
 height: 15px;
 position: absolute;
+
 }
 .skl2 {
     width: 25px;
@@ -90,26 +91,32 @@ text-align:center;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
+font-size: 16px;
 }
 form .btn1 {
-position: absolute;
-  border: solid 1px #C4C4C4;
+ position: absolute;
   display: block;
-  width: 21px;
-  height: 21px;
-  line-height: 16px;
-  font-size: 20px;
-  border-radius: 50%;
   top: 126px;
   right: 50px;
   margin: auto;
-  background: white;
   padding: 0;
   outline: none;
   cursor: pointer;
   transition: .1s;
-  color: #C4C4C4;
+  background: none;
+  background-attachment: none;
+  border: none;
   
+}
+
+.btn1 :hover {
+  background-image: url("image/Group0.png");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  box-shadow: none;
+}
+.photoone :hover {
+  display: none;
 }
 
 .btn2 {
@@ -160,17 +167,24 @@ overflow: auto;
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  display:inline-block;
   cursor: pointer;
-  background-color: #FFFFFF;
-  color:#C4C4C4;
-  text-align: center;
-  border: solid 1px #C4C4C4;
   position: absolute;
   right: 0;
   top: 0;
   
+  
 }
+.deleteButton :hover {
+  background-image: url("image/Group0.png");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  border: #C4C4C4 5px;
+}
+ 
+
+
+
+
 .li{
     width: 230px;
     height: auto;
