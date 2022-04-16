@@ -12,12 +12,7 @@ const skl4 = document.querySelector(".skl4")
 
 
  button.addEventListener("click",go)
-// let button1 = document.querySelector('form .btn1')
-// button1.addEventListener("mauseover",()=>{
-//     button1.style.color = "red"
-// })
-
-function go (){
+  function go (){
     tasklistbox.style.display = "block"
     listContainer.style.height = "450px"
     let li = document.createElement("li");
@@ -64,7 +59,8 @@ function fnClick (){
         };
     
      skl1.style.display = "block";
-     skl3.style.display = "none";
+     skl4.style.display = "none";
+
      
      let list, i, switching, b, shouldSwitch;
      list = document.querySelector(".tasklistbox");
@@ -162,8 +158,6 @@ let i = 1;
 while(i=fnClick()){
 azerbaycan.addEventListener("mouseover",hover);
 azerbaycan.addEventListener("mouseout",hover1);
-
-
 }
 
 
